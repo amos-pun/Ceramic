@@ -9,12 +9,12 @@
 .search_btn{
     background-color: black;
     color: white;
-    padding: 0px 20px;
+    padding: 3px 30px !important;
     border-radius: 8px;
     border: 2px solid black;
-    font-weight: bold;
     position: absolute;
     right: 28.5%;
+    font-size: 12px;
 }
 .search_btn:hover{
     background-color: white;
@@ -23,7 +23,7 @@
     font-weight: bold;
 }
 .search_bar{
-    width: 350px;
+    width: 320px;
     border-radius: 8px;
 }
 
