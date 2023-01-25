@@ -1,4 +1,4 @@
-const images = ['cup1.jfif','cup2.jpg','cup3.jpg','cup4.jpg',]
+const images = ['cup1.jfif','cup2.jpg','cup3.jpg','cup4.jpg']
 
 // console.log(images)
 
@@ -11,6 +11,10 @@ const next = () => {
         index = 0
     }
     document.getElementById('image_slide').src = images[index]
+    document.getElementById('nam').innerHTML = names[index]
 }
 
-setInterval(next, 4000)
+setInterval(next, 3000)
+
+const names = ['Classic Cup','Forest Cup','Golden Cup','Japanese Cup']
+document.getElementById('nam').innerHTML = names[index]
