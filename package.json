@@ -1,0 +1,23 @@
+{
+  "name": "day2",
+  "homepage" : "https://amos-pun.github.io/Infinity-Intern-Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amos-pun/Infinity-Intern-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amos-pun/Infinity-Intern-Project/issues"
+  }
+}
