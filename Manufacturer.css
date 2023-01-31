@@ -1,0 +1,9 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+.body1{
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.6) url(./pro1.jpg);
+}

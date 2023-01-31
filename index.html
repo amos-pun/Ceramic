@@ -36,6 +36,13 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald&family=Rowdies:wght@300&family=Seymour+One&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Animation Link CDN -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    
   </head>
   <body>
     <div class="container-fluid">
@@ -49,7 +56,7 @@
           <div class="d-flex justify-content-center middle_searchbar p-3">
             <input
               type="search "
-              placeholder="search items"
+              placeholder="search"
               class="search_bar"
             />
             <button class="search_btn px-2 search_btn">Search</button>
@@ -75,139 +82,155 @@
     <!-- Navbar bottom -->
     <div class="col-lg-12 container-fluid">
       <div class="row text-center heading_main" >
-        <p class="col-lg-2">Home</p>
-        <p class="col-lg-2">Manufacturer</p>
-        <p class="col-lg-2">Categories</p>
-        <p class="col-lg-2">Our Products</p>
-        <p class="col-lg-2">Sale of Month</p>
-        <p class="col-lg-2">Customer Help</p>
+        <div class="col-lg-2 nav_in">
+          <p>Home</p></div>
+        <div class="col-lg-2">
+          <p>Manufacturer </p></div>
+        <div class="col-lg-2">
+          <p>Categories</p></div>
+        <div class="col-lg-2">
+          <p> Our Products</p></div>
+        <div class="col-lg-2"><p>
+          Sale of Month
+        </p></div>
+        <div class="col-lg-2">
+          <p>
+            Customer Help
+          </p></div>
       </div>
     </div>
 
     <!-- Main content -->
     <div class="container-fluid">
       <div class="row">
-        <!-- <div class="left_side col-lg-2">
-
-        </div> -->
-
         <!-- Main Body -->
         <div class="col-lg-12">
           <div class="middle_body">
             <div class="body_main">
-              <h1>
-                <br>
-                Welcome to <span style="color: rgb(204, 62, 85); font-size: 56px;">Ceramic</span> World
-                <br>  
+              <img src="./cup2.jpg" id="back" alt="..">
+                <h1 >
+                  Welcome to <span style="color: rgb(204, 62, 85); font-size: 56px;">&nbsp;Ceramic&nbsp;</span> World
+                </h1>
+            </div>
+          </div>
+
+          <div class="col-lg-12 sale">
+            <h1>
+              <marquee>
+                <span class="sale_1">N</span> 
+                <span class="sale_1">E</span> 
+                <span class="sale_1">W</span> 
+                <span class="sale_1">P</span>
+                <span class="sale_1">R</span>
+                <span class="sale_1">O</span>
+                <span class="sale_1">D</span>
+                <span class="sale_1">U</span>
+                <span class="sale_1">C</span>
+                <span class="sale_1">T</span>
+                <span class="sale_1">S</span>
+              </marquee>
               </h1>
-            </div>
+           </div> 
+           <div class="col-lg-12 d-flex">
+              <h3 id="days">
+                <h3>Days</h3>
+              </h3>
+              <h3 id="hr">
+                <h3>Hr</h3>
+              </h3>
+              <h3 id="min">
+                <h3>Min</h3>
+              </h3>
+              <h3 id="sec">
+                <h3>Sec</h3>
+              </h3>
+           </div>
 
-            <!-- <div class="body_second">
-              <div class="row row-cols-1 row-cols-md-2 g-4 p-2">
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body text-center">
-                      <h5 class="card-title">Traditional Method</h5>
-                      <p class="card-text">
-                        Most mass-produced traditional ceramics, on the other
-                        hand, are fired in tunnel kilns. These consist of
-                        continuous conveyor belt or railcar operations, with the
-                        ware traversing the kiln and gradually being heated from
-                        room temperature, through a hot zone, and back down to
-                        room temperature.
-                      </p>
-                      <img
-                        src="./per1.jpg"
-                        class="card-img-top"
-                        alt="..."
-                        height="260px"
-                      />
-                    </div>
-                  </div>
+          <div class="body_second col-lg-12">
+              <div class="card mx-2" style="width: 18rem;">
+                <img src="./cup4.jpg" class="card-img-top" height="254px" alt="...">
+                <div class="card-body text-center p-1 border mt-3">
+                  <p class="card-text">Japanese Tea Cup</p>
+                  <a href="#" class="btn btn-warning m-3 p-1 px-5">Buy</a>
                 </div>
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body text-center">
-                      <h5 class="card-title">Mordern Method</h5>
-                      <p class="card-text">
-                        Some of the most common forming methods for ceramics
-                        include extrusion, slip casting, pressing, tape casting
-                        and injection molding. After the particles are formed,
-                        these "green" ceramics undergo a heat-treatment (called
-                        firing or sintering) to produce a rigid, finished
-                        product.
-                      </p>
-                      <img
-                        src="./per2.jpg"
-                        class="card-img-top"
-                        alt="..."
-                        height="260px"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <h1>
+                  <span class="sale_1">1</span> 
+                  <span class="sale_1">0</span> 
+                  <span class="sale_1">%</span> 
+                  <span class="sale_1">Off</span>
+                </h1>
               </div>
-            </div> -->
 
-            <!-- <div class="body_third">
-                <div id="carouselExampleIndicators" class="carousel slide">
-                    <div class="carousel-indicators dwn_btn">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    </div>
-                    <div class="carousel-inner px-5 py-2" style="height: 400px;" >
-                      <div class="carousel-item active">
-                        <img src="./cema1.jpg" class="d-block w-75 m-auto" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./cema2.jpg" class="d-block w-75 m-auto" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./cema3.jpg" class="d-block w-75 m-auto" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./cema4.png" class="d-block w-75 m-auto" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./cema5.jpg" class="d-block w-75 m-auto" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon left_btn" aria-hidden="true"></span>
-                    </button>
-                    <button class="carousel-control-next carousel_r" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon right_btn" aria-hidden="true"></span>
-                    </button>
-                  </div>
-            </div> -->
+              <div class="card mx-2" style="width: 18rem;">
+                <img src="./cup1.jfif" class="card-img-top" height="254px" alt="...">
+                <div class="card-body text-center p-1 border mt-3">
+                  <p class="card-text">Japanese Tea Cup</p>
+                  <a href="#" class="btn btn-warning m-3 p-1 px-5">Buy</a>
+                </div>
+                <h1 >
+                  <span class="sale_1">S</span> 
+                  <span class="sale_1">A</span> 
+                  <span class="sale_1">L</span> 
+                  <span class="sale_1">E</span>
+                </h1>
+              </div>
+
+              <div class="card mx-2" style="width: 18rem;">
+                <img src="./cup3.jpg" class="card-img-top" height="254px" alt="...">
+                <div class="card-body text-center p-1 border mt-3">
+                  <p class="card-text">Japanese Tea Cup</p>
+                  <a href="#" class="btn btn-warning m-3 p-1 px-5">Buy</a>
+                </div>
+                <h1>
+                  <span class="sale_1">2</span> 
+                  <span class="sale_1">0</span> 
+                  <span class="sale_1">%</span> 
+                  <span class="sale_1">Off</span>
+                </h1>
+              </div>
+
+              <div class="card mx-2" style="width: 18rem;">
+                <img src="./cup2.jpg" class="card-img-top" height="254px" alt="...">
+                <div class="card-body text-center p-1 border mt-3">
+                  <p class="card-text">Japanese Tea Cup</p>
+                  <a href="#" class="btn btn-warning m-3 p-1 px-5">Buy</a>
+                </div>
+                <h1>
+                  <span class="sale_1">1</span> 
+                  <span class="sale_1">0</span> 
+                  <span class="sale_1">%</span> 
+                  <span class="sale_1">Off</span>
+                </h1>
+              </div>
+              
           </div>
+
+          <p id="show_time"></p>
         </div>
-
-        <!-- Side Bar (ad) -->
-        <!-- <div class="col-lg-2 container-fluid p-0 text-center">
-          <div class="card" style="width: 12.5rem">
-            <img
-              src=""
-              class="card-img-top"
-              alt="..."
-              height="200px"
-              id="image_slide"
-            />
-            <p id="nam" class="alert alert-info fw-bold" role="alert"></p>
-            <div class="card-body">
-              <p class="card-text">
-                Ceramic is a material that is mechanically strong and can be
-                given the desired shape easily. Mugs are made with ceramics have
-                a long life as compared to mugs made of glass.
-              </p>
-            </div>
-          </div>
-        </div> -->
       </div>
     </div>
+
+    <!-- Side Bar (ad) -->
+    <!-- <div class="col-lg-2 container-fluid p-0 text-center">
+      <div class="card" style="width: 12.5rem">
+        <img
+          src=""
+          class="card-img-top"
+          alt="..."
+          height="200px"
+          id="image_slide"
+        />
+        <p id="nam" class="alert alert-info fw-bold" role="alert"></p>
+        <div class="card-body">
+          <p class="card-text">
+            Ceramic is a material that is mechanically strong and can be
+            given the desired shape easily. Mugs are made with ceramics have
+            a long life as compared to mugs made of glass.
+          </p>
+        </div>
+      </div>
+    </div> -->
+  </div>
 
     <!-- footer -->
     <div class="container-fluid p-0 m-0">
